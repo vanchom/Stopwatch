@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="lib/easytimer/dist/easytimer.min.js"></script>
+    <script>
+        var timerInstance = new easytimer.Timer();
+    </script>
+</head>
+<body>
+    <h1>STOPWATCH</h1>
+    <div id="watch-shape">
+        <div class ="screen">
+            <h2 class="values"><time>00:00:00</time></h2>
+        </div>
+        <input type="button" class="button" id="start" value="START">
+        <input type="button" class="button" id="pause" value="PAUSE">
+        <input type="button" class="button" id="stop" value="STOP">
+        <input type="button" class="button" id="reset" value="RESET">
+
+    </div>
+    <script src="main.js"></script>
+    
+</body>
+</html>
