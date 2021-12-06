@@ -12,58 +12,71 @@ h1{
     font-weight:800;
     font-family: 'KoHo', sans-serif;
     padding:0;
-    margin-top:-10px;
+    margin:10px 0 -20px;
     font-size:3.5rem;
 }
 
 #watch-shape{
-    background: #9ca3a1;
-    height:430px;
-    width:300px;
-    border-top-left-radius: 50px;
-    border-top-right-radius:50px;
+    background:linear-gradient(#9ca3a1,#727473);
+    height:260px;
+    width:170px;
+    border-top-left-radius: 30px;
+    border-top-right-radius:30px;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
-       margin-top: -50px;
-    position: relative;
+    margin-top: -70px;
+    display:flex;
+    flex-wrap: nowrap;
     z-index: 1;
-    box-shadow: 0 4px 6px  rgb(71, 71, 71);
+    box-shadow: 0 2px 2px 2px  rgb(49, 49, 49);
 }
 
+.screen-container{
+    background: #6bd134;
+    height:200px;
+}
 .screen{
     background: #f0f8d9;
     position:absolute;
     z-index: 5;
-    height:150px;
-    width:250px;
-    margin:25px;
-    border-radius: 15px;
+    height:80px;
+    width:140px;
+    margin:15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius:15px;
+    border-bottom-right-radius:5px;
+    border-bottom-left-radius: 5px;
     justify-content: center;
-    box-shadow:  0 2px 2px 2px gray;
+    box-shadow:  0 2px 2px 2px rgb(85, 84, 84);
 }
 .values{
     text-align:center;
-font-size: 50px;
+font-size: 26px;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-weight: 500;
-margin-top:50px;
+margin-top:26px;
 }
-
+.button-container{
+    margin:-100px 0 0 -36px;
+    padding:0;
+    width:100px;
+    height:174px;
+}
 .button{
-    width:70%;
-    height:45px;
+    width:150px;
+    height:30px;
     border-radius: 10px;
     margin-left:45px;
     margin-top:15px;
     padding:0;
     border-style: none;
     letter-spacing: 3px;   
-    font-size:18px;
+    font-size:13px;
     font-family: 'Source Code Pro', monospace;
     font-weight:500;
     color:#ffffff;
     border-radius: 10px;
-    box-shadow:  0 1px 1px 1px rgb(100, 100, 100); 
+    box-shadow:  0 1px 1px 1px rgb(85, 84, 84);
 }
 #start{
     margin-top:225px;
